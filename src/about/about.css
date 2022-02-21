@@ -1,0 +1,69 @@
+.about p {
+    font-size: 16px;
+    font-family: "manrope", sans-serif;
+    font-weight: 400;
+    color: #869ae1;
+    text-align: left;
+    line-height: 27px;
+    align-self: stretch;
+  }
+  .about h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-style: normal;
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    color: #b2c3ff;
+  }
+  .doc:hover {
+    font-size: 16px;
+    transition: all 1s ease;
+  }
+  .social-links a:hover {
+    color: #869ae1;
+    transition: all 1s ease;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  
+    align-items: flex-start;
+ 
+  }
+  #me {
+    background-image: url("../images/me3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 25%;
+  
+    height: 103px;
+    width: 103px;
+    border-radius: 20px;
+  }
+  #social_hover_1{
+    color: #cfff69;
+  }
+  #social_hover_1:hover {
+    color: #869ae1;
+  }
+  #social_hover_2{
+    color: #cfff69;
+  }
+  #social_hover_2:hover {
+    color: #869ae1;
+  }
+  #social_hover_3{
+    color: #cfff69;
+  }
+  #social_hover_3:hover {
+    color: #869ae1;
+  }
+  div.main.social-links {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+   
+  }
+  

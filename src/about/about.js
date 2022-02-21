@@ -4,7 +4,7 @@ import {
   BsFillEnvelopeFill,
   BsMessenger,
 } from "react-icons/bs";
-
+import './about.css'
 const About = () => {
   return (
     <>

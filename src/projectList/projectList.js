@@ -1,5 +1,5 @@
 import project1 from "../PicOfGTC.png";
-
+import './projectList.css'
 const ProjectList = () => {
   return (
     <>

@@ -1,4 +1,5 @@
 import '../images/RobertNeyrinckResume.pdf' 
+import './footer.css'
 const Footer = () => {
   return (
     <footer id="contact_section">

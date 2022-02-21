@@ -6,18 +6,16 @@
   }
   nav{
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: space-around;
     gap: 6rem;
   }
   div.dropdown-menu {
-    /* justify-items: end; */
     display: flex;
     flex-direction: row;
     align-items: center;
-   
-    gap: 10px;
-  
+    gap: 6px;
+    justify-self: end;
   }
   
   div.dropdown-menu h2 {

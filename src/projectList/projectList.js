@@ -5,9 +5,9 @@ const ProjectList = () => {
     <>
       <div className="recentWork">
         <h4 className="recentWorkH4-1">Recent Work</h4>
-        <a href="#lastCard">
+        {/* <a href="#lastCard">
           <h4 className="recentWorkH4-2">See more {"->"}</h4>
-        </a>
+        </a> */}
       </div>
       <section id="projects">
         <a href="https://rneyrinck.github.io/Project-2/">

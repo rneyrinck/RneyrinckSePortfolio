@@ -1,48 +1,35 @@
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 768px) {
- 
-  
+
   button.more {
     display: none;
   }
-  .component.hamburger{
+  .component.hamburger {
     display: none;
   }
   .about {
     display: flex;
     flex-flow: column wrap;
     height: 356px;
-    /* justify-content: center;
-    margin: auto;
-    align-items: flex-start;
-    height: 625px;
-    margin-left: 20px;
-    margin-right: 25px; */
+   
   }
-  div.main.social-links{
-    margin: 20px
+  div.main.social-links {
+    margin: 20px;
   }
-  .about p, h2{
+  .about p,
+  h2 {
     margin: 20px;
     inline-size: 300px;
     overflow-wrap: break-word;
   }
-  .doc{
-    margin-left:20px
+  .doc {
+    margin-left: 20px;
   }
 
   #me {
     height: 305px;
     width: 243px;
     border-radius: 20px;
-    margin-right:20px;
+    margin-right: 20px;
   }
 
   #projects {
@@ -51,35 +38,32 @@
   .more {
     display: none;
   }
-  
- 
-  #header_title{
+
+  #header_title {
     font-size: 26px;
   }
-  #project_button2 h2{
-    color: #0F0E0E;
-    background-color:#cfff69 ;
+  #project_button2 h2 {
+    color: #0f0e0e;
+    background-color: #cfff69;
     width: 80px;
     height: 16px;
     text-align: center;
     font-weight: 700;
   }
-  #project_button1 h2{
+  #project_button1 h2 {
     color: #cfff69;
-    background-color: #B2C3FF29;
+    background-color: #b2c3ff29;
     width: 80px;
     height: 16px;
     text-align: center;
-    }
-
- 
+  }
 }
-@media only screen and (min-width: 992px){
-  .footer-links{
+@media only screen and (min-width: 992px) {
+ 
+  .footer-links {
     display: flex;
     flex-direction: row;
     margin: 10px auto;
-    
   }
   footer {
     display: flex;

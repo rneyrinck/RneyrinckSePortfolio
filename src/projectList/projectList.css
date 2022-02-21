@@ -3,12 +3,10 @@ div.recentWork {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* gap: 10rem; */
-    /* align-items: flex-end; */
-    /* padding: 20px; */
-    height: 80px;
-    position: static;
-    align-self: stretch;
+    /* margin-left: 4rem */
+    /* height: 80px; */
+    /* position: static; */
+    /* align-self: stretch; */
     /* margin-bottom: -50px; */
   }
   .recentWorkH4-1 {
@@ -40,8 +38,8 @@ div.recentWork {
     align-content: center;
     gap: 10px;
     flex-wrap: wrap;
-    margin: 20px;
-   
+    /* margin: 20px; */
+   margin-bottom: 15px;
   }
   #projects a {
     justify-content: center;
@@ -49,7 +47,7 @@ div.recentWork {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 335px;
+    /* width: 335px; */
     height: 257px;
     flex: none;
     align-self: stretch;

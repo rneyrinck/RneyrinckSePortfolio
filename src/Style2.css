@@ -1,0 +1,168 @@
+body {
+  background-color: #150e27;
+}
+img {
+  height: 40px;
+  width: 40px;
+}
+.header.title.h1 {
+  font-size: 16px;
+  color: #869ae1;
+  font-family: "space mono", sans-serif;
+  font-weight: 400;
+}
+div.dropdown-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  order: 0;
+}
+
+div.dropdown-menu h2 {
+  background-color: #869ae1;
+  border-radius: 50px;
+  padding: 8px;
+  font-size: 12px;
+  color: #0f0e0e;
+  font-family: "manrope", sans-serif;
+  font-weight: 600;
+}
+div.dropdown-menu h2:hover {
+  font-size: 14px;
+}
+#social_hover_1,
+#social_hover_2,
+#social_hover_3 {
+  display: flex;
+  transform: scale(1.8);
+  margin: 15px;
+}
+.icon {
+  font-family: "Anicons regular", sans-serif;
+  color: #cfff69;
+
+  font-size: 30px;
+}
+
+.icon:hover {
+  /* font-variation-settings: "TIME" 100;
+  font-variation-settings: "TIME" 1;
+  transition: font-variation-settings 0.4s ease; */
+}
+
+.doc {
+  font-family: "manrope", sans-serif;
+  color: #cfff69;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  /* margin-top: 33px; */
+}
+.about p {
+  font-size: 16px;
+  font-family: "manrope", sans-serif;
+  font-weight: 400;
+  color: #869ae1;
+  text-align: left;
+  line-height: 27px;
+  align-self: stretch;
+}
+.about h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-style: normal;
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  color: #b2c3ff;
+}
+#github {
+  width: 37px;
+  height: 37px;
+  /* margin: 1px 1px 2px 1px; */
+}
+/* .main.social-links {
+  height: 32px;
+  width: 32px;
+  color:#CFFF69
+} */
+div.main.social-links {
+  /* margin-top: 16px; */
+}
+
+div.recentWork {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+  /* align-items: flex-end; */
+  /* padding: 20px; */
+  height: 80px;
+  position: static;
+  align-self: stretch;
+  /* margin-bottom: -50px; */
+}
+.recentWorkH4-1 {
+  font-family: "manrope", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #869ae1;
+}
+.recentWorkH4-2 {
+  font-family: "manrope", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2e2b4a;
+}
+/* reference ease hover: https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover */
+.recentWorkH4-2:hover {
+  font-size: 18px;
+  transition: all 1s ease;
+}
+.social-links a:hover {
+  color: #869ae1;
+  transition: all 1s ease;
+}
+.doc:hover {
+  font-size: 16px;
+  transition: all 1s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.more {
+  font-family: "manrope", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #cfff69;
+  padding: 10px 20px;
+  width: 85px;
+  height: 36px;
+  color: #0f0e0e;
+  background: #cfff69;
+  border: none;
+  border-radius: 20px;
+  /* margin-left: 36%; */
+  /* margin-right: 30%; */
+}
+div.spacer {
+  height: 100px;
+  padding: 0px;
+}
+footer {
+  background-color: #b2c3ff;
+}
+footer h1 {
+  font-size: 22px;
+  font-family: "manrope", sans-serif;
+  font-weight: 700;
+  color: #150e27;
+}

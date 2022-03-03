@@ -10,7 +10,7 @@ const ProjectList = () => {
         </a> */}
       </div>
       <section id="projects">
-        <a href="https://rneyrinck.github.io/Project-2/">
+        <a href="https://rneyrinck.github.io/Project-2/" target='_blank'>
           <div className="card-top" style={{backgroundImage:`url(${project1})`, backgroundPosition:'center'}}></div>
           <div className="card-bottom">
             <h1 className="name-div2-h1">Galaxy Cards</h1>
@@ -19,13 +19,12 @@ const ProjectList = () => {
             </p>
           </div>
         </a>
-        <a href="">
-          <div className="card-top" style={{ background: { project1 } }}></div>
+        <a href="https://pages.git.generalassemb.ly/rob-neyrinck/Cookbook-client/#/" target='_blank'>
+          <div className="card-top" style={{ backgroundImage: `url("https://media.istockphoto.com/photos/food-backgrounds-table-filled-with-large-variety-of-food-picture-id1155240408?k=20&m=1155240408&s=612x612&w=0&h=Zvr3TwVQ-wlfBnvGrgJCtv-_P_LUcIK301rCygnirbk=")` }}></div>
           <div className="card-bottom">
-            <h1 className="name-div2-h1">Project Name</h1>
+            <h1 className="name-div2-h1">Cookbooker</h1>
             <p>
-              Project description will go here eventually with a super specific
-              character limit
+              Full stack MERN application where users can add their favorite cookbooks and authors. 
             </p>
           </div>
         </a>

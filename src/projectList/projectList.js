@@ -1,4 +1,5 @@
 import project1 from "../PicOfGTC.png";
+import project3 from "../heyNeighborLogo.png";
 import './projectList.css'
 const ProjectList = () => {
   return (
@@ -28,7 +29,16 @@ const ProjectList = () => {
             </p>
           </div>
         </a>
-        <a href="">
+        <a href="https://sabr-ga.github.io/hey-neighbor-client/#/">
+          <div className="card-top" style={{ backgroundImage: `url(${project3})`, backgroundPosition: 'center' }}></div>
+          <div className="card-bottom">
+            <h1 className="name-div2-h1">HeyNeighbor</h1>
+            <p>
+              MERN application developed in an agile team setting with three other developers. 
+            </p>
+          </div>
+        </a>
+        {/* <a href="" id="lastCard">
           <div className="card-top"></div>
           <div className="card-bottom">
             <h1 className="name-div2-h1">Project Name</h1>
@@ -37,17 +47,7 @@ const ProjectList = () => {
               character limit
             </p>
           </div>
-        </a>
-        <a href="" id="lastCard">
-          <div className="card-top"></div>
-          <div className="card-bottom">
-            <h1 className="name-div2-h1">Project Name</h1>
-            <p>
-              Project description will go here eventually with a super specific
-              character limit
-            </p>
-          </div>
-        </a>
+        </a> */}
       </section>
     </>
   );
